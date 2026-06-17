@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+@media (max-width: 992px) {
+	.navbar {
+		background-color: #202631;
+	}
+}
+
+body {
+	font-family: "Barlow", sans-serif;
+	line-height: 1.8;
+	color: #545d6d;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 800;
+	color: #202631;
+}
+
+a {
+	color: #545d6d;
+	text-decoration: none;
+	transition: all 0.4s ease;
+	font-weight: 700;
+}
+
+a:hover {
+	color: #202631;
+}
+
+img {
+	width: 100%;
+}
+
+section {
+	padding-top: 170px;
+	padding-bottom: 170px;
+}
+
+.navbar {
+	position: absolute;
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	z-index: 9999;
+}
+
+.navbar li {
+	list-style-type: none;
+}
+
+.navbar-brand {
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.social-links a {
+	width: 36px;
+	height: 36px;
+	background-color: #ffffff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100px;
+	font-size: 18px;
+	margin-left: 5px;
+	border: solid
+}
+
+
+#hero {
+	background-image: url("images/RishiHeadImage-bw.jpg");
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+#hero h1,
+#hero p {
+	color: #ffffff;
+}
+
+#hero h1 {
+	font-weight: 900;
+}
+
+#hero p {
+	font-size: 18px;
+	max-width: 450px;
+}
+
+.btn {
+	padding: 20px 44px;
+	border-width: 2px;
+	border-radius: 100px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.intro {
+	margin-bottom: 60px;
+}
+
+.intro .hr-line {
+	width: 60px;
+	height: 4px;
+	background-color: #202631;
+	display: inline-block;
+}
+
+.intro h1 {
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.intro p {
+	width: 500px;
+}
+
+.intro.intro-dark h1,
+.intro.intro-dark p {
+	color: white;
+}
+
+.intro.intro-dark .hr-line {
+	background-color: white;
+}
+
+.service {
+	border: 1px solid rgba(0, 0, 0, 0.10);
+	border-radius: 30px;
+	display: flex;
+	padding: 32px;
+}
+
+.service .icon {
+	width: 100px;
+	height: 100px;
+	background-color: #202631;
+	display: flex;
+	flex: none;
+	align-items: center;
+	justify-content: center;
+	font-size: 34px;
+	color: white;
+	border-radius: 30px;
+	margin-right: 16px;
+}
+
+.link-arrow {
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+}
+
+.link-arrow svg {
+	transition: all 0.4s ease;
+}
+
+.link-arrow:hover svg {
+	transform: translate(5px, -5px);
+}
+
+.link-arrow.link-dark {
+	color: #545d6d;
+}
+
+.link-arrow.link-dark:hover {
+	color: white;
+}
+
+.col-lg-6.custom-row {
+	margin-bottom: 1.5rem;
+}
+
+#work {
+	background-color: #202631;
+}
+
+.project h3 {
+	color: white;
+	margin-top: 24px;
+}
+
+.project .image-wrapper {
+	overflow: hidden;
+	border-radius: 30px;
+}
+
+.project .image-wrapper img {
+	width: 692px;
+	height: 484px;
+	border-radius: 30px;
+	transform: scale(1.1);
+	transition: all 0.4s ease;
+}
+
+.project:hover .image-wrapper img {
+	transform: scale(1);
+}
+
+.col-lg-4.col-sm-6.custom-row {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+.col-lg-12.custom-row {
+	margin-top: 0.50rem;
+	margin-bottom: 0.50rem;
+}
+.col-lg-6.custom-col {
+	margin-top: 0.50rem;
+	margin-bottom: 0.50rem;
+}
+
+#about img {
+	border-radius: 30px;
+	margin-top: 1rem;
+}
+
+#contact form {
+	padding: 32px;
+	border: 1px solid rgba(0, 0, 0, 0.10);
+	border-radius: 30px;
+}
+
+#contact form .form-control {
+	background-color: #f8f8f8;
+	border: transparent;
+	border-radius: 30px;
+	padding-left: 18px;
+}
+
+#contact form input.form-control {
+	height: 56px;
+}
+
+.footer-top {
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+.footer-bottom {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+footer .social-links {
+	border: 1px solid rgba(0, 0, 0, 0.10);
+}
+

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2024_Rishi_Portfolio</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="rishi.css" rel="stylesheet" type="text/css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+  	<!-- body code goes here -->
+
+	  <nav class="navbar navbar-expand-lg navbar-dark">
+		  <div class="container-fluid">
+			  <a class="navbar-brand" href="#">Rishi</a>
+			  <ul>
+			    <li>
+			      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="navbar-toggler-icon"></span>
+		          </button>
+		        </li>
+		    </ul>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-lg-4">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#services">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#work">Work</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+			<div class="social-links ml-auto">
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+						<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+					</svg>
+				</a>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+						<path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+					</svg>
+				</a>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+						<path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+					</svg>
+				</a>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dribbble" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M8 0C3.584 0 0 3.584 0 8s3.584 8 8 8c4.408 0 8-3.584 8-8s-3.592-8-8-8m5.284 3.688a6.8 6.8 0 0 1 1.545 4.251c-.226-.043-2.482-.503-4.755-.217-.052-.112-.096-.234-.148-.355-.139-.33-.295-.668-.451-.99 2.516-1.023 3.662-2.498 3.81-2.69zM8 1.18c1.735 0 3.323.65 4.53 1.718-.122.174-1.155 1.553-3.584 2.464-1.12-2.056-2.36-3.74-2.551-4A7 7 0 0 1 8 1.18m-2.907.642A43 43 0 0 1 7.627 5.77c-3.193.85-6.013.833-6.317.833a6.87 6.87 0 0 1 3.783-4.78zM1.163 8.01V7.8c.295.01 3.61.053 7.02-.971.199.381.381.772.555 1.162l-.27.078c-3.522 1.137-5.396 4.243-5.553 4.504a6.82 6.82 0 0 1-1.752-4.564zM8 14.837a6.8 6.8 0 0 1-4.19-1.44c.12-.252 1.509-2.924 5.361-4.269.018-.009.026-.009.044-.017a28.3 28.3 0 0 1 1.457 5.18A6.7 6.7 0 0 1 8 14.837m3.81-1.171c-.07-.417-.435-2.412-1.328-4.868 2.143-.338 4.017.217 4.251.295a6.77 6.77 0 0 1-2.924 4.573z"/>
+					</svg>
+				</a>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+						<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+					</svg>
+				</a>
+			</div>
+			  </div>
+		  </div>
+	  </nav>
+	  
+	  <section id="hero">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-lg-6">
+					  <h1 class="display-1" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-cubic">Rishi Desai</h1>
+					  <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-easing="ease-out-cubic">Hi, I'm Rishi Desai. I believe the best way to learn technology is by building with it. This portfolio showcases my journey as a Computer Science student, software developer, and lifelong learner.</p>
+					  <a href="#work" class="btn btn-outline-light" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500" data-aos-easing="ease-out-cubic">Explore My Work</a>
+			      </div>
+			  </div>
+		  </div>
+	  </section>
+	  
+	  <section id="services">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-12" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-cubic">
+					  <div class="intro text-center">
+						  <div class="hr-line"></div>
+						  <h1 class="display-4">My Services</h1>
+						  <p class="mx-auto">Through coursework and personal projects, I have gained experience developing software, designing web applications, and solving technical challenges. I am always looking for opportunities to learn new technologies and improve my development skills.</p>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="row">
+				  <div class="col-lg-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-cubic">
+					  <div class="service custom-row">
+						  <div class="icon">
+							  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
+						  </div>
+						  <div class="text">
+							  <h4>Branding</h4>
+							  <p>I focus on creating consistent and visually clear design elements that help communicate a strong identity. Through simple and thoughtful visuals like logos and layouts, I aim to build designs that feel recognizable and meaningful.</p>
+							  <a href="#" class="link-arrow">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+							  </a>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="col-lg-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-easing="ease-out-cubic">
+					  <div class="service">
+						  <div class="icon">
+							  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-cup" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M.11 3.187A.5.5 0 0 1 .5 3h13a.5.5 0 0 1 .488.608l-.22.991a3.001 3.001 0 0 1-1.3 5.854l-.132.59A2.5 2.5 0 0 1 9.896 13H4.104a2.5 2.5 0 0 1-2.44-1.958L.012 3.608a.5.5 0 0 1 .098-.42Zm12.574 6.288a2 2 0 0 0 .866-3.899zM1.124 4l1.516 6.825A1.5 1.5 0 0 0 4.104 12h5.792a1.5 1.5 0 0 0 1.464-1.175L12.877 4H1.123Z"/></svg>
+						  </div>
+						  <div class="text">
+							  <h4>UI/UX Design</h4>
+							  <p>I design clean and intuitive interfaces that create a smooth user experience. My focus is on usability, simplicity, and making websites easy and enjoyable to navigate. I balance functionality with visual design to improve overall engagement.</p>
+							  <a href="#" class="link-arrow">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+							  </a>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="col-lg-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500" data-aos-easing="ease-out-cubic">
+					  <div class="service">
+						  <div class="icon">
+							  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-display" viewBox="0 0 16 16"><path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4q0 1 .25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75Q6 13 6 12H2s-2 0-2-2zm1.398-.855a.76.76 0 0 0-.254.302A1.5 1.5 0 0 0 1 4.01V10c0 .325.078.502.145.602q.105.156.302.254a1.5 1.5 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.76.76 0 0 0 .254-.302 1.5 1.5 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.76.76 0 0 0-.302-.254A1.5 1.5 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145"/></svg>
+						  </div>
+						  <div class="text">
+							  <h4>Web Development</h4>
+							  <p>I build responsive and functional websites using modern web technologies and clean code practices. My goal is to turn ideas into working applications that are both efficient and user-friendly.</p>
+							  <a href="#" class="link-arrow">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+							  </a>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="col-lg-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-delay="700" data-aos-easing="ease-out-cubic">
+					  <div class="service">
+						  <div class="icon">
+							  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/></svg>
+						  </div>
+						  <div class="text">
+							  <h4>Software Development</h4>
+							  <p>I develop software solutions that solve real problems using structured and efficient coding practices. I enjoy working on applications that combine functionality, performance, and practical use.</p>
+							  <a href="#" class="link-arrow">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+							  </a>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+	  
+	  <section id="work">
+		  <div class="container">
+			  <div class="row align-items-center justify-content-between" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-cubic">
+				  <div class="col-lg-6">
+					  <div class="intro intro-dark">
+						  <div class="hr-line"></div>
+						  <h1 class="display-4">My Work</h1>
+						  <p>This section highlights some of my projects in web and software development. Each project represents what I&rsquo;ve learned so far and how I apply my skills to build practical and user-friendly applications.</p>
+					  </div>
+				  </div>
+				  <div class="col-auto">
+					  <a href="#" class="btn btn-outline-light">View More</a>
+				  </div>
+			  </div>
+			  <div class="row">
+				  <div class="col-lg-4 col-sm-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-cubic">
+					  <div class="project">
+						  <div class="image-wrapper">
+					      <img src="images/Project1.jpg" class="img-fluid" alt="Placeholder image"></div>
+						  <h3>Sketch Serenity</h3>
+						  <a href="#" class="link-arrow link-dark">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+						  </a>
+					  </div>
+				  </div>
+				  <div class="col-lg-4 col-sm-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-easing="ease-out-cubic">
+					  <div class="project">
+						  <div class="image-wrapper">
+					      <img src="images/Project2.jpg" class="img-fluid" alt="Placeholder image"></div>
+						  <h3>Vivid Orb</h3>
+						  <a href="#" class="link-arrow link-dark">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+						  </a>
+					  </div>
+				  </div>
+				  <div class="col-lg-4 col-sm-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-easing="ease-out-cubic">
+					  <div class="project">
+						  <div class="image-wrapper">
+					      <img src="images/Project3.jpg" class="img-fluid" alt="Placeholder image"></div>
+						  <h3>Vivid Hue Splash</h3>
+						  <a href="#" class="link-arrow link-dark">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+						  </a>
+					  </div>
+				  </div>
+				  <div class="col-lg-4 col-sm-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500" data-aos-easing="ease-out-cubic">
+					  <div class="project">
+						  <div class="image-wrapper">
+					      <img src="images/Project4.jpg" class="img-fluid" alt="Placeholder image"></div>
+						  <h3>Solar Flare Lion</h3>
+						  <a href="#" class="link-arrow link-dark">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+						  </a>
+					  </div>
+				  </div>
+				  <div class="col-lg-4 col-sm-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600" data-aos-easing="ease-out-cubic">
+					  <div class="project">
+						  <div class="image-wrapper">
+					      <img src="images/Project5.jpg" class="img-fluid" alt="Placeholder image"></div>
+						  <h3>Pixelated Elegance</h3>
+						  <a href="#" class="link-arrow link-dark">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+						  </a>
+					  </div>
+				  </div>
+				  <div class="col-lg-4 col-sm-6 custom-row" data-aos="fade-up" data-aos-duration="800" data-aos-delay="700" data-aos-easing="ease-out-cubic">
+					  <div class="project">
+						  <div class="image-wrapper">
+					      <img src="images/Project6.jpg" class="img-fluid" alt="Placeholder image"></div>
+						  <h3>Cosmic Craniums</h3>
+						  <a href="#" class="link-arrow link-dark">Read More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/></svg>
+						  </a>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+	  
+	  <section id="about">
+		  <div class="container">
+		    <div class="row">
+				  <div class="col-lg-5" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-cubic">
+					  <div class="intro mb-4">
+						  <div class="hr-line"></div>
+						  <h1 class="display-4">Little bit about me</h1>
+					  </div>
+				    <p>I am a Computer Science student at Point Park University with a strong interest in software development and technology. I enjoy solving coding problems and building projects that help me improve my skills as a developer. I stay engaged with new tools and technologies while continuing to learn and grow through coursework and hands-on experience. I like applying what I learn in class to real projects, which helps me understand how software is built in practical situations. I also value teamwork and collaboration, especially in group projects where I can learn from others and contribute my own ideas. Outside of coursework, I spend time working on personal projects to strengthen my understanding of programming and explore different areas of development. I am also focused on improving my problem-solving skills and writing cleaner, more efficient code. Over time, I want to build a strong foundation that prepares me for real-world software engineering roles. My goal is to gain real-world experience, keep improving my technical skills, and grow into a strong software engineer.</p>
+					<a href="#contact" class="btn btn-outline-dark">Contact Me</a>
+				  </div>
+				  <div class="col-lg-6 offset-lg-1">
+					  <img src="images/RishiHeadshotFace-bw.jpg" alt="">
+				</div>
+		    </div>
+		  </div>
+	  </section>
+	  
+	  <section id="contact">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-12" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-cubic">
+					  <div class="intro text-center">
+						  <div class="hr-line"></div>
+						  <h1 class="display-4">Let's get in<br>touch today</h1>
+						  <p class="mx-auto">Let&rsquo;s connect. I&rsquo;m always open to discussing new opportunities, projects, or ideas in software development. Feel free to reach out if you&rsquo;d like to collaborate or just connect.</p>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="row">
+				  <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-cubic">
+					  <form action="" class="row custom-row">
+						  <div class="col-lg-6 custom-col">
+							  <input type="text" class="form-control" placeholder="Name">
+						  </div>
+						  <div class="col-lg-6 custom-col">
+							  <input type="email" class="form-control" placeholder="Email">
+						  </div>
+						  <div class="col-lg-12 custom-row">
+							  <input type="text" class="form-control" placeholder="Subject">
+						  </div>
+						  <div class="col-lg-12 custom-row">
+							  <textarea class="form-control" placeholder="message" rows="5"></textarea>
+						  </div>
+						  <div class="col-12">
+							  <button class="btn btn-dark">Send Message</button>
+						  </div>
+					  </form>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+	  
+	  <section class="pb-0">
+		  <footer>
+			  <div class="container footer-top">
+				  <div class="row justify-content-between">
+					  <div class="col-auto">
+						  <div>
+							  <p class="mb-0">EMAIL</p>
+							  <h2>rishipdesai28@gmail.com</h2>
+						  </div>
+						  <div class="mt-4">
+							  <p class="mb-0">Phone</p>
+							  <h2>(814)-308-3281</h2>
+						  </div>
+					  </div>
+					  <div class="col-auto">
+						  <h5 class="mb-3">Follow me on</h5>
+						  <div class="social-links ml-auto">
+							  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg>
+							  </a>
+							  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/></svg>
+							  </a>
+							  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16"><path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/></svg>
+							  </a>
+							  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dribbble" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 0C3.584 0 0 3.584 0 8s3.584 8 8 8c4.408 0 8-3.584 8-8s-3.592-8-8-8m5.284 3.688a6.8 6.8 0 0 1 1.545 4.251c-.226-.043-2.482-.503-4.755-.217-.052-.112-.096-.234-.148-.355-.139-.33-.295-.668-.451-.99 2.516-1.023 3.662-2.498 3.81-2.69zM8 1.18c1.735 0 3.323.65 4.53 1.718-.122.174-1.155 1.553-3.584 2.464-1.12-2.056-2.36-3.74-2.551-4A7 7 0 0 1 8 1.18m-2.907.642A43 43 0 0 1 7.627 5.77c-3.193.85-6.013.833-6.317.833a6.87 6.87 0 0 1 3.783-4.78zM1.163 8.01V7.8c.295.01 3.61.053 7.02-.971.199.381.381.772.555 1.162l-.27.078c-3.522 1.137-5.396 4.243-5.553 4.504a6.82 6.82 0 0 1-1.752-4.564zM8 14.837a6.8 6.8 0 0 1-4.19-1.44c.12-.252 1.509-2.924 5.361-4.269.018-.009.026-.009.044-.017a28.3 28.3 0 0 1 1.457 5.18A6.7 6.7 0 0 1 8 14.837m3.81-1.171c-.07-.417-.435-2.412-1.328-4.868 2.143-.338 4.017.217 4.251.295a6.77 6.77 0 0 1-2.924 4.573z"/></svg>
+							  </a>
+							  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg>
+							  </a>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="container footer-bottom">
+				  <div class="row justify-content-between">
+					  <div class="col-auto">
+						  <p class="mb-0">Copyright All Rights Reserved By Rishi Desai</p>
+					  </div>
+					  <div class="col-auto">
+						  <p class="mb-0">Designed by <a href="">Rishi</a></p>
+					  </div>
+				  </div>
+			  </div>
+		  </footer>
+	  </section>
+	  
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+	  <script>AOS.init();</script>
+</body>
+</html>
